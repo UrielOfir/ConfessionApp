@@ -10,6 +10,49 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body {
+  background-image: linear-gradient( #ccff66, #006600);
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+  font-size: large;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#confesionContent{
+  height: 400px;
+  width: 400px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 
 html {
   color: #222;
@@ -180,9 +223,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
